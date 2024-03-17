@@ -18,7 +18,7 @@ app.listen(5000, () => {  // Server listening callback
 
  
 mongoose.connect(
-    'mongodb+srv://admin:PK61CrskzfDgQ5N1@mycrud.vnan8q4.mongodb.net/MyApp?retryWrites=true&w=majority&appName=MyCRUD')
+    'mongodb+srv://admin:<Password>@mycrud.vnan8q4.mongodb.net/MyApp?retryWrites=true&w=majority&appName=MyCRUD')
     .then(() => {
         console.log('Connected!')
 })
